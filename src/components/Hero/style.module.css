@@ -83,6 +83,7 @@
     color: var(--white-color);
     font-size: 28px;
     padding-top: 70px;
+    align-items: center;
   }
   .section {
     background-size: cover;
@@ -116,6 +117,90 @@
     }
   } */
 
+
+  .langugageInner {
+    display: flex;
+
+    gap: 6px;
+  }
+  .languageArrow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../../static/languageArrow.svg);
+    background-size: cover;
+    height: 10px;
+    width: 16px;
+    margin-top: 4px;
+    transform: rotate(-90deg);
+  }
+  .languageArrow2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../../static/languageArrow.svg);
+    background-size: cover;
+    height: 10px;
+    width: 16px;
+    margin-top: 4px;
+  }
+  .language {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+  }
+  .language:hover {
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(250, 195, 195);
+  }
+  .languageArrow {
+    height: 8px;
+    width: 16px;
+    position: relative;
+  }
+  .languageArrow2 {
+    height: 8px;
+    width: 16px;
+    position: relative;
+  }
+
+  .languagesChangeNone{
+    display: none;
+  }
+  .languagesChange {
+    width: 82%;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    top: 80px;
+    right: 127px;
+  }
+  .smallButton {
+    font-size: 12px;
+    border: none;
+    background-color: #010101;
+    color: white;
+    width: 54px;
+    height: 21.8px;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 6px;
+  }
+  .smallButton:hover{
+    color:  #FFB548;
+  }
+  .buttonInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 .title {
     font-size: 24px;
     text-align: center;
@@ -145,6 +230,22 @@
     margin: 0 auto;
   }
   
+  .logosInner {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    padding-top: 25px;
+    position: relative;
+  }
+
+.sectionInner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
   .main {
     padding-top: 250px;
   }
@@ -191,9 +292,14 @@
     }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .title {
       font-size: 48px;
+    }
+
+    .languagesChange {
+      top: 85px;
+      right: 125px;
     }
     
     .text {
