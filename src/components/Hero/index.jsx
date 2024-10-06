@@ -74,7 +74,7 @@ const Hero = () => {
         <img src={langugeLine} alt="langugeLine" className={css.langugeLine} />
         <img src={xboxIcon} alt="icon" className={css.icon} />
         <img src={steamIcon} alt="icon" className={css.icon} />
-        <li className={`${css[changeLanguageClass]}`}>
+        <div className={`${css[changeLanguageClass]}`}>
         <button className={css.smallButton} onClick={openLanguageMenu}>
           RUS
         </button>
@@ -84,7 +84,7 @@ const Hero = () => {
         <button className={css.smallButton} onClick={openLanguageMenu}>
           DEU
         </button>
-      </li>
+      </div>
       </li>
       
         </ul>
