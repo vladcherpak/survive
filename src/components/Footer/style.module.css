@@ -1,0 +1,36 @@
+.footer{
+    background-color: black;
+}
+
+
+.list{
+    color: white;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.icons__list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.author{
+    color: rgba(255, 255, 255, 1);
+}
+.privat{
+    color: white;
+}
