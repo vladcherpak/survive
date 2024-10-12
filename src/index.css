@@ -8,6 +8,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  max-width: 1240px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 
 
   
