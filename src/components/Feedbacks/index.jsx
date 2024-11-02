@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import css from "./style.module.css";
-import chel1 from "../../static/chel1.jpg";
-import chel2 from "../../static/chel2.jpg";
-import chel3 from "../../static/chel3.jpg";
+import chel1 from "../../static/chel11.png";
+import chel2 from "../../static/chel22.png";
+import chel3 from "../../static/chel33.png";
 import twitterIcon from "../../static/twitter_icon.svg";
 import bg from "../../static/commentBackground.jpg";
 
