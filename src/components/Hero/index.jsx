@@ -91,11 +91,12 @@ const Hero = () => {
       </div>
 
       </div>
-
+    <div className={css.wrapper}>
       <div className={css.main}>
         <h1 className={css.title}>SURVIVE AT ALL COSTS</h1>
         <p className={css.text}>Experience new social battle royale game</p>
         <button className={css.btn}> Buy Now on Steam $14.88</button>
+      </div>
       </div>
       <div className={css.story}>
         <p className={css.story__text}>The story</p>
